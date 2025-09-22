@@ -123,7 +123,7 @@ li {
 	width: 100%;
 	text-align: center;
 	padding: 18px 0 12px 0;
-	color: #fff;
+	color: #ffffff;
 	background: #8d552456;
 	font-size: 1.15em;
 	font-family: 'Segoe UI', Arial, sans-serif;
@@ -133,8 +133,11 @@ li {
 }
 
 #video-jawa {
-	margin: flex;
-	justify-content: center;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin: 20px auto;
 }
 
 #video-jawa h3 {
@@ -142,8 +145,12 @@ li {
 }
 
 #video-jawa iframe {
-	display: block;
-	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 
 h1 {
