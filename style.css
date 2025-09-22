@@ -1,0 +1,225 @@
+body {
+	background: url('ChatGPT Image Sep 22, 2025, 03_14_06 PM.png') repeat, #f8f4e3;
+	color: #3e2723;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	/*backdrop-filter: blur(5px);*/
+}
+
+header, nav {
+	background: #8d5524;
+	color: #fff;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.navbar li {
+	display: inline;
+}
+.navbar a {
+	color: #ffe066;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 8px 16px;
+	border-radius: 6px;
+	transition: background 0.2s;
+}
+.navbar a:hover {
+	background: #ffe066;
+	color: #8d5524;
+}
+
+main {
+	max-width: 900px;
+	margin: 30px auto;
+	background: #fffbe67f;
+	padding: 30px;
+	border-radius: 16px;
+	box-shadow: 0 2px 16px rgba(141,85,36,0.15);
+	backdrop-filter: blur(5px);
+}
+
+h1.aksara-jawa {
+	font-family: 'Noto Sans Javanese', sans-serif;
+	font-size: 2.5em;
+	color: #ffe066;
+	background: #6d4c1b;
+	padding: 12px 0;
+	border-radius: 12px;
+	margin-bottom: 0;
+	letter-spacing: 2px;
+	box-shadow: 0 2px 8px rgba(141,85,36,0.2);
+}
+
+.aksara-jawa {
+	font-family: 'Noto Sans Javanese', sans-serif;
+	font-size: 1.3em;
+	color: #6d4c1b;
+	background: #ffe066;
+	padding: 8px 16px;
+	border-radius: 8px;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+section {
+	margin-bottom: 32px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 18px 0;
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 1px 6px rgba(141,85,36,0.08);
+}
+th, td {
+	border: 1px solid #ffe066;
+	padding: 10px 8px;
+	text-align: left;
+}
+th {
+	background: #ffe066;
+	color: #6d4c1b;
+	font-weight: bold;
+}
+tr:nth-child(even) {
+	background: #fffbe6;
+}
+
+ul {
+	padding-left: 20px;
+}
+li {
+	margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+	main {
+		padding: 10px;
+	}
+	table, th, td {
+		font-size: 0.95em;
+	}
+	.navbar ul {
+		gap: 10px;
+	}
+}
+
+.footer-signature {
+	width: 100%;
+	text-align: center;
+	padding: 18px 0 12px 0;
+	color: #fff;
+	background: #8d552456;
+	font-size: 1.15em;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	letter-spacing: 1px;
+	margin-top: 40px;
+	box-shadow: 0 -2px 8px rgba(141,85,36,0.12);
+}
+
+#video-jawa {
+	margin: flex;
+	justify-content: center;
+}
+
+#video-jawa h3 {
+	text-align: center;
+}
+
+#video-jawa iframe {
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+
+.kategori {
+	margin-bottom: 40px;
+}
+
+.kategori h2 {
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 15px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.huruf {
+	background: white;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.huruf .latin {
+	font-size: 0.8rem;
+	margin-top: 5px;
+	color: #555;
+}
+
+.huruf {
+	font-size: 2rem;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	gap: 15px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+	body {
+		font-size: 1rem;
+	}
+}
+
+/* HP */
+@media (max-width: 600px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	h1 {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 1.2rem;
+	}
+	.huruf {
+		font-size: 1.5rem;
+	}
+}
